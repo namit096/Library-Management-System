@@ -1,0 +1,2357 @@
+INFO 2024-07-03 06:42:15,392 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:42:32,909 autoreload N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py changed, reloading.
+INFO 2024-07-03 06:42:33,186 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:42:49,734 autoreload N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py changed, reloading.
+INFO 2024-07-03 06:42:50,014 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:43:08,610 autoreload N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py changed, reloading.
+INFO 2024-07-03 06:43:08,942 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:43:39,239 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:43:51,645 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:43:55,421 basehttp "GET /admin/Bookshelf/book/3/change/ HTTP/1.1" 200 14762
+INFO 2024-07-03 06:44:00,971 basehttp "GET /admin/Bookshelf/book/ HTTP/1.1" 200 10334
+INFO 2024-07-03 06:44:00,988 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,989 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,991 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,992 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,992 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,993 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,995 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,995 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,995 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,996 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,996 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,997 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,997 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:00,998 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:44:01,010 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:01,016 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:01,029 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:01,036 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,068 basehttp "GET /admin/Bookshelf/book/5/change/ HTTP/1.1" 200 14758
+INFO 2024-07-03 06:44:02,087 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,088 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,089 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,090 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,091 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:44:02,095 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,107 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,110 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,112 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,117 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,118 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2024-07-03 06:44:02,186 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+ERROR 2024-07-03 06:44:04,495 log Internal Server Error: /admin/Bookshelf/book/5/change/
+Traceback (most recent call last):
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1948, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1855, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1259, in save_model
+    obj.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 62, in save
+    book_borrowed.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 17, in handle_update_borrowed
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 64, in save
+    book_returned.send(sender=self.__class__, instance=self, user=self.user)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\dispatch\dispatcher.py", line 189, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py", line 23, in handle_book_returned
+    instance.save()
+  File "N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py", line 54, in save
+    super(Book , self).save(*args , **kwargs)
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\base.py", line 1040, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\base.py", line 1105, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1990, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1976, in as_sql
+    where, params = self.compile(self.query.where)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\sql\where.py", line 151, in as_sql
+    sql, params = compiler.compile(child)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\lookups.py", line 380, in as_sql
+    return super().as_sql(compiler, connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\lookups.py", line 245, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\lookups.py", line 221, in process_lhs
+    lhs_sql, params = super().process_lhs(compiler, connection, lhs)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\lookups.py", line 104, in process_lhs
+    lhs = lhs.resolve_expression(compiler.query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\expressions.py", line 285, in resolve_expression
+    c = self.copy()
+        ^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\db\models\expressions.py", line 421, in copy
+    return copy.copy(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\namit\AppData\Local\Programs\Python\Python311\Lib\copy.py", line 102, in copy
+    return _reconstruct(x, None, *rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\namit\AppData\Local\Programs\Python\Python311\Lib\copy.py", line 265, in _reconstruct
+    y = func(*args)
+        ^^^^^^^^^^^
+  File "C:\Users\namit\AppData\Local\Programs\Python\Python311\Lib\copyreg.py", line 105, in __newobj__
+    return cls.__new__(cls, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "N:\Grind\Django_Project\Library Management\.venv\Lib\site-packages\django\utils\deconstruct.py", line 17, in __new__
+    obj = super(klass, cls).__new__(cls)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RecursionError: maximum recursion depth exceeded while calling a Python object
+ERROR 2024-07-03 06:44:04,541 basehttp "POST /admin/Bookshelf/book/5/change/ HTTP/1.1" 500 4300173
+INFO 2024-07-03 06:45:12,348 autoreload N:\Grind\Django_Project\Library Management\library\Bookshelf\models.py changed, reloading.
+INFO 2024-07-03 06:45:12,613 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:45:20,808 basehttp "GET /admin/Bookshelf/book/5/change/ HTTP/1.1" 200 14758
+INFO 2024-07-03 06:45:23,550 basehttp "POST /admin/Bookshelf/book/5/change/ HTTP/1.1" 302 0
+INFO 2024-07-03 06:45:23,565 basehttp "GET /admin/Bookshelf/book/ HTTP/1.1" 200 10533
+INFO 2024-07-03 06:45:23,581 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:45:23,629 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-07-03 06:46:26,903 basehttp "GET /admin/Bookshelf/book/5/change/ HTTP/1.1" 200 14750
+INFO 2024-07-03 06:46:26,920 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:46:31,576 basehttp "POST /admin/Bookshelf/book/5/change/ HTTP/1.1" 302 0
+INFO 2024-07-03 06:46:31,582 basehttp "GET /admin/Bookshelf/book/ HTTP/1.1" 200 10533
+INFO 2024-07-03 06:46:31,612 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:48:33,382 autoreload N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py changed, reloading.
+INFO 2024-07-03 06:48:33,689 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:48:37,932 autoreload N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py changed, reloading.
+INFO 2024-07-03 06:48:38,191 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:48:45,080 basehttp "GET /admin/Bookshelf/book/4/change/ HTTP/1.1" 200 14742
+INFO 2024-07-03 06:48:45,080 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:48:47,065 basehttp "GET /admin/Bookshelf/book/ HTTP/1.1" 200 10334
+INFO 2024-07-03 06:48:48,162 basehttp "GET /admin/Bookshelf/book/5/change/ HTTP/1.1" 200 14758
+INFO 2024-07-03 06:48:48,184 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:48:50,202 basehttp "POST /admin/Bookshelf/book/5/change/ HTTP/1.1" 302 0
+INFO 2024-07-03 06:48:50,215 basehttp "GET /admin/Bookshelf/book/ HTTP/1.1" 200 10533
+INFO 2024-07-03 06:48:50,246 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:48:53,218 basehttp "GET /admin/Bookshelf/book/5/change/ HTTP/1.1" 200 14750
+INFO 2024-07-03 06:48:53,234 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:48:54,631 basehttp "GET /admin/Bookshelf/book/ HTTP/1.1" 200 10334
+INFO 2024-07-03 06:49:48,101 autoreload N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py changed, reloading.
+INFO 2024-07-03 06:49:48,388 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:49:51,629 autoreload N:\Grind\Django_Project\Library Management\library\Bookshelf\listeners.py changed, reloading.
+INFO 2024-07-03 06:49:51,949 autoreload Watching for file changes with StatReloader
+INFO 2024-07-03 06:49:53,439 basehttp "GET /admin/Bookshelf/book/5/change/ HTTP/1.1" 200 14750
+INFO 2024-07-03 06:49:53,456 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:49:55,528 basehttp "POST /admin/Bookshelf/book/5/change/ HTTP/1.1" 302 0
+INFO 2024-07-03 06:49:55,547 basehttp "GET /admin/Bookshelf/book/ HTTP/1.1" 200 10533
+INFO 2024-07-03 06:49:55,561 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-07-03 06:50:56,614 autoreload N:\Grind\Django_Project\Library Management\library\library\settings.py changed, reloading.
